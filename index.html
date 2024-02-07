@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1st Birthday Bash</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ffb6c1, #87ceeb);
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .bg-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .content {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 100%;
+      position: relative;
+    }
+
+    .baby-image {
+      height: 280px;
+      max-width: 400px;
+      border-radius: 10%;
+      margin: 20px 0;
+    }
+
+    h1 {
+      color: #ff69b4;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #333;
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .invitation-card {
+      background-color: #ffcccb;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    .date {
+      font-size: 1.2em;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      margin-top: 20px;
+      background-color: #ff69b4;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .bg-image {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="./assets/images/arcadia.jpg" alt="Birthday Celebration" class="bg-image">
+
+  <div class="container">
+    <div class="content">
+      <img  src="./assets/images/BdayYenu.jpg" alt="Baby's Photo" class="baby-image">
+      <h1>ආදරණීය ආරාධනයයි</h1>
+      <p>
+        පුංචි ඳගකාරයා, 'යෙනු' ට ඔන්න අපි දන්නෙම නැතුව අවුරුද්දකුත් උනා. <br>
+        සිනහව, ආදරය පිරි සැදෑවක් අප හා ගත කරමින් එ සතුට සමරන්න ආරාධනා..
+      </p>
+
+      <div class="invitation-card">
+        <p class="date">දිනය -: 2024-02-10</p>
+        <p>වේලාව -: පස්වරු 5:30</p>
+        <p>ස්ථානය-: ආ(ර්)කේඩියා අවන්හල,බත්තරමුල්ල</p>
+      </div>
+
+      <a href="https://www.google.com/maps/dir//299a+Battaramulla+-+Pannipitiya+Rd,+Sri+Jayawardenepura+Kotte/@6.8931082,79.8458631,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ae251deb488530d:0xdf3d65a2ccd0d047!2m2!1d79.928264!2d6.893113?entry=ttu">Find the Location</a>
+    </div>
+  </div>
+
+</body>
+</html>
